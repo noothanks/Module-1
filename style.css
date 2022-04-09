@@ -7,7 +7,7 @@
 /* TODO: Element */
 /*Changes the Color of the whole body*/
 body {
-  background-color: lemonchiffon;
+  background-color: rgb(185, 185, 185);
 }
 /*Selector List
 Sizes header, footer, and its text
@@ -17,15 +17,15 @@ footer {
   width: 100%;
   height: 100px;
   line-height: 100px;
-  color: #f0ead6;
-  background-color: #191970;
+  color: #383c36;
+  background-color: #69d970;
 }
 /*Element
 Changes size of the picture
 Changes the background color*/
 figure {
   width: 200px;
-  background-color: #f0ead6;
+  background-color: #69d970;
 }
 
 /* TODO: Class selector
@@ -39,4 +39,8 @@ changes color of the background section,
 overwrites first background color from body */
 #contact-section {
   background-color: #f0ead6;
+}
+
+h2 {
+  color:rgba(6, 52, 2, 0.41)
 }
