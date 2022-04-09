@@ -1,13 +1,17 @@
-/* TODO: Label selector type */
+/* TODO: Universal */
+/*Changes font style for the entire page*/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* TODO: Element */
+/*Changes the Color of the whole body*/
 body {
   background-color: lemonchiffon;
 }
-
+/*Selector List
+Sizes header, footer, and its text
+Styles the color of the text and background in these sections*/
 header,
 footer {
   width: 100%;
@@ -16,18 +20,23 @@ footer {
   color: #f0ead6;
   background-color: #191970;
 }
-
+/*Element
+Changes size of the picture
+Changes the background color*/
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* TODO: Class selector
+Changes style of copyright text */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* TODO: id selectore
+changes color of the background section,
+overwrites first background color from body */
 #contact-section {
   background-color: #f0ead6;
 }
